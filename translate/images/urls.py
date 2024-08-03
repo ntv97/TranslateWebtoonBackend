@@ -5,8 +5,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('image', ImageViewSet.as_view({
+    path('image/translate', ImageViewSet.as_view({
         'post': 'retrieve'
+    })),
+    path('image/resize', ImageViewSet.as_view({
+        'post': 'resize'
     }))
 ]
 
