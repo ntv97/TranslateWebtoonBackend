@@ -4,6 +4,7 @@ django-cors-headers==3.5.0
 requests==2.25.0
 requests==2.25.0
 roboflow
+legacy-cgi
 Pillow
 opencv-python
 deep-translator
