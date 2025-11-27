@@ -5,6 +5,7 @@ requests==2.25.0
 requests==2.25.0
 roboflow
 legacy-cgi
+python-dotenv
 Pillow
 opencv-python
 deep-translator
