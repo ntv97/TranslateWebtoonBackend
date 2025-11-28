@@ -3,7 +3,7 @@ djangorestframework==3.12.2
 django-cors-headers==3.5.0
 requests==2.25.0
 requests==2.25.0
-roboflow
+roboflow==0.2.34
 legacy-cgi
 python-dotenv
 Pillow
